@@ -761,6 +761,8 @@
             { "caption": "-" },
             { "command": "new_plugin", "caption": "Новый плагин…" },
             { "command": "new_snippet", "caption": "Новый сниппет…" },
+            { "command": "new_syntax", "caption": "Новый синтаксис…" },
+            { "command": "convert_syntax" },
             { "caption": "-", "id": "end" }
         ]
     },
@@ -881,7 +883,7 @@
             { "command": "remove_license", "caption": "Удалить лицензию"},
             { "caption": "-" },
             { "command": "update_check", "caption": "Проверить наличие обновлений…", "platform": "!Linux" },
-            { "command": "show_changelog", "caption": "Changelog…" },
+            { "command": "show_changelog", "caption": "Список изменений…" },
             { "command": "show_about_window", "caption": "О программе...", "mnemonic": "A" }
         ]
     }
