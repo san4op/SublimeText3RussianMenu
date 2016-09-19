@@ -759,10 +759,20 @@
                 "children": [ { "command": "$macros" } ]
             },
             { "caption": "-" },
-            { "command": "new_plugin", "caption": "Новый плагин…" },
-            { "command": "new_snippet", "caption": "Новый сниппет…" },
-            { "command": "new_syntax", "caption": "Новый синтаксис…" },
-            { "command": "convert_syntax" },
+            {
+                "caption": "Разработчик",
+                "children":
+                [
+                    { "command": "new_plugin", "caption": "Новый плагин…" },
+                    { "command": "new_snippet", "caption": "Новый сниппет…" },
+                    { "command": "new_syntax", "caption": "Новый синтаксис…" },
+                    { "command": "convert_syntax" },
+                    { "caption": "-" },
+                    { "command": "profile_plugins" },
+                    { "caption": "-" },
+                    { "command": "show_scope_name" },
+                ]
+            },
             { "caption": "-", "id": "end" }
         ]
     },
