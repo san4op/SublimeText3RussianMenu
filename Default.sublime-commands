@@ -1,0 +1,103 @@
+[
+	{
+		"caption": "Перенос слов: Переключить",
+		"command": "toggle_setting",
+		"args": {"setting": "word_wrap"}
+	},
+	{
+		"caption": "Изменить регистр: ПРОПИСНЫЕ",
+		"command": "upper_case"
+	},
+	{
+		"caption": "Изменить регистр: строчные",
+		"command": "lower_case"
+	},
+	{
+		"caption": "Изменить регистр: Все Слова С Заглавной",
+		"command": "title_case"
+	},
+	{
+		"caption": "Изменить регистр: иНВЕРТИРОВАТЬ",
+		"command": "swap_case"
+	},
+
+	{ "command": "toggle_comment", "args": {"block": false}, "caption": "Переключить комментарий" },
+	{ "command": "toggle_comment", "args": {"block": true}, "caption": "Переключить блочный комментарий" },
+
+	{ "command": "toggle_bookmark", "caption": "Закладки: Переключить" },
+	{ "command": "next_bookmark", "caption": "Закладки: Выбрать следующую" },
+	{ "command": "prev_bookmark", "caption": "Закладки: Выбрать предыдущую" },
+	{ "command": "clear_bookmarks", "caption": "Закладки: Удалить все" },
+	{ "command": "select_all_bookmarks", "caption": "Закладки: Выбрать все" },
+
+	{ "caption": "Отступ: Преобразовать в табуляцию", "command": "unexpand_tabs", "args": {"set_translate_tabs": true} },
+	{ "caption": "Отступ: Преобразовать в пробелы", "command": "expand_tabs", "args": {"set_translate_tabs": true} },
+	{ "caption": "Отступ: Reindent Lines", "command": "reindent", "args": {"single_line": false} },
+
+	{ "caption": "Вид: Показать/Скрыть боковую панель", "command": "toggle_side_bar" },
+	{ "caption": "Вид: Показать/Скрыть открытые файлы", "command": "toggle_show_open_files" },
+	{ "caption": "Вид: Показать/Скрыть миникарту", "command": "toggle_minimap" },
+	{ "caption": "Вид: Показать/Скрыть вкладки", "command": "toggle_tabs" },
+	{ "caption": "Вид: Показать/Скрыть панель состояния", "command": "toggle_status_bar" },
+	{ "caption": "Вид: Показать/Скрыть меню", "command": "toggle_menu" },
+
+	{ "caption": "Проект: Сохранить как", "command": "save_project_and_workspace_as" },
+	{ "caption": "Проект: Закрыть", "command": "close_workspace" },
+	{ "caption": "Проект: Добавить папку", "command": "prompt_add_folder" },
+	{ "caption": "Проект: Обновить папки", "command": "refresh_folder_list" },
+	{ "caption": "Проект: Редактировать проект",  "command": "open_file", "args": {"file": "${project}"} },
+
+	{
+		"caption": "Опции: Настройки",
+		"command": "edit_settings", "args":
+		{
+			"base_file": "${packages}/Default/Preferences.sublime-settings",
+			"default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+		}
+	},
+	{ "caption": "Опции: Настройки – Специальный синтаксис", "command": "edit_syntax_settings" },
+	{ "caption": "Установить Package Control", "command": "install_package_control" },
+	{ "caption": "Опции: Просмотр плагинов", "command": "open_dir", "args": {"dir": "$packages"} },
+
+	{
+		"caption": "Опции: Горячие клавиши",
+		"command": "edit_settings", "args":
+		{
+			"base_file": "${packages}/Default/Default ($platform).sublime-keymap",
+			"default": "[\n\t$0\n]\n"
+		}
+	},
+
+	{ "caption": "Файл: Сохранить все", "command": "save_all" },
+	{ "caption": "Файл: Восстановить", "command": "revert" },
+	{ "caption": "Файл: Дублировать активную вкладку", "command": "clone_file" },
+	{ "caption": "Файл: Закрыть все", "command": "close_all" },
+
+	{ "caption": "HTML: Оберните выделение с помощью тегов", "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
+	{ "caption": "HTML: Кодировать специальные символы", "command": "encode_html_entities" },
+
+	{ "caption": "Rot13 Selection", "command": "rot13" },
+
+	{ "caption": "Сортировать строки", "command": "sort_lines", "args": {"case_sensitive": false} },
+	{ "caption": "Сортировать строки (с учетом регистра)", "command": "sort_lines", "args": {"case_sensitive": true} },
+
+	{ "caption": "Упорядочить строки: В обратном порядке", "command": "permute_lines", "args": {"operation": "reverse"} },
+	{ "caption": "Упорядочить строки: Удалить повторы", "command": "permute_lines", "args": {"operation": "unique"} },
+	{ "caption": "Упорядочить строки: Перемешать", "command": "permute_lines", "args": {"operation": "shuffle"} },
+
+	{ "caption": "Упорядочить выделенное: Сортировать", "command": "sort_selection", "args": {"case_sensitive": false} },
+	{ "caption": "Упорядочить выделенное: Сортировать (с учетом регистра)", "command": "sort_selection", "args": {"case_sensitive": true} },
+	{ "caption": "Упорядочить выделенное: В обратном порядке", "command": "permute_selection", "args": {"operation": "reverse"} },
+	{ "caption": "Упорядочить выделенное: Удалить повторы", "command": "permute_selection", "args": {"operation": "unique"} },
+	{ "caption": "Упорядочить выделенное: Перемешать", "command": "permute_selection", "args": {"operation": "shuffle"} },
+
+	{ "caption": "Сворачивание кода: Развернуть все", "command": "unfold_all" },
+	{ "caption": "Сворачивание кода: Свернуть атрибуты тегов", "command": "fold_tag_attributes" },
+
+	{ "caption": "Разработка плагинов: Профилирование плагинов", "command": "profile_plugins" },
+	{ "caption": "Разработка плагинов: Конвертировать синтаксис в .sublime-syntax", "command": "convert_syntax" },
+
+	{ "caption": "О программе", "command": "show_about_window" },
+	{ "caption": "Список изменений", "command": "show_changelog" },
+	{ "caption": "Статус индексации", "command": "show_progress_window" },
+]

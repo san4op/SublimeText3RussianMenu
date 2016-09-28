@@ -5,11 +5,11 @@
         "id": "file",
         "children":
         [
-            { "command": "new_file", "caption": "Новый файл", "caption": "Новый файл", "mnemonic": "N" },
+            { "command": "new_file", "caption": "Новый файл", "mnemonic": "N" },
 
             { "command": "prompt_open_file", "caption": "Открыть файл…", "mnemonic": "O", "platform": "!OSX" },
             { "command": "prompt_open_folder", "caption": "Открыть папку…", "platform": "!OSX" },
-            { "command": "prompt_open", "caption": "Открыть", "platform": "OSX" },
+            { "command": "prompt_open", "caption": "Открыть…", "platform": "OSX" },
             {
                 "caption": "Недавно открытые",
                 "mnemonic": "R",
@@ -46,36 +46,36 @@
                     { "caption": "UTF-16 LE", "command": "reopen", "args": {"encoding": "utf-16 le" } },
                     { "caption": "UTF-16 BE", "command": "reopen", "args": {"encoding": "utf-16 be" } },
                     { "caption": "-" },
-                    { "caption": "Western (Windows 1252)", "command": "reopen", "args": {"encoding": "Western (Windows 1252)" } },
-                    { "caption": "Western (ISO 8859-1)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-1)" } },
-                    { "caption": "Western (ISO 8859-3)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-3)" } },
-                    { "caption": "Western (ISO 8859-15)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-15)" } },
-                    { "caption": "Western (Mac Roman)", "command": "reopen", "args": {"encoding": "Western (Mac Roman)" } },
+                    { "caption": "Латиница (Windows 1252)", "command": "reopen", "args": {"encoding": "Western (Windows 1252)" } },
+                    { "caption": "Латиница (ISO 8859-1)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-1)" } },
+                    { "caption": "Латиница (ISO 8859-3)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-3)" } },
+                    { "caption": "Латиница (ISO 8859-15)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-15)" } },
+                    { "caption": "Латиница (Mac Roman)", "command": "reopen", "args": {"encoding": "Western (Mac Roman)" } },
                     { "caption": "DOS (CP 437)", "command": "reopen", "args": {"encoding": "DOS (CP 437)" } },
-                    { "caption": "Arabic (Windows 1256)", "command": "reopen", "args": {"encoding": "Arabic (Windows 1256)" } },
-                    { "caption": "Arabic (ISO 8859-6)", "command": "reopen", "args": {"encoding": "Arabic (ISO 8859-6)" } },
-                    { "caption": "Baltic (Windows 1257)", "command": "reopen", "args": {"encoding": "Baltic (Windows 1257)" } },
-                    { "caption": "Baltic (ISO 8859-4)", "command": "reopen", "args": {"encoding": "Baltic (ISO 8859-4)" } },
-                    { "caption": "Celtic (ISO 8859-14)", "command": "reopen", "args": {"encoding": "Celtic (ISO 8859-14)" } },
-                    { "caption": "Central European (Windows 1250)", "command": "reopen", "args": {"encoding": "Central European (Windows 1250)" } },
-                    { "caption": "Central European (ISO 8859-2)", "command": "reopen", "args": {"encoding": "Central European (ISO 8859-2)" } },
-                    { "caption": "Cyrillic (Windows 1251)", "command": "reopen", "args": {"encoding": "Cyrillic (Windows 1251)" } },
-                    { "caption": "Cyrillic (Windows 866)", "command": "reopen", "args": {"encoding": "Cyrillic (Windows 866)" } },
-                    { "caption": "Cyrillic (ISO 8859-5)", "command": "reopen", "args": {"encoding": "Cyrillic (ISO 8859-5)" } },
-                    { "caption": "Cyrillic (KOI8-R)", "command": "reopen", "args": {"encoding": "Cyrillic (KOI8-R)" } },
-                    { "caption": "Cyrillic (KOI8-U)", "command": "reopen", "args": {"encoding": "Cyrillic (KOI8-U)" } },
-                    { "caption": "Estonian (ISO 8859-13)", "command": "reopen", "args": {"encoding": "Estonian (ISO 8859-13)" } },
-                    { "caption": "Greek (Windows 1253)", "command": "reopen", "args": {"encoding": "Greek (Windows 1253)" } },
-                    { "caption": "Greek (ISO 8859-7)", "command": "reopen", "args": {"encoding": "Greek (ISO 8859-7)" } },
-                    { "caption": "Hebrew (Windows 1255)", "command": "reopen", "args": {"encoding": "Hebrew (Windows 1255)" } },
-                    { "caption": "Hebrew (ISO 8859-8)", "command": "reopen", "args": {"encoding": "Hebrew (ISO 8859-8)" } },
-                    { "caption": "Nordic (ISO 8859-10)", "command": "reopen", "args": {"encoding": "Nordic (ISO 8859-10)" } },
-                    { "caption": "Romanian (ISO 8859-16)", "command": "reopen", "args": {"encoding": "Romanian (ISO 8859-16)" } },
-                    { "caption": "Turkish (Windows 1254)", "command": "reopen", "args": {"encoding": "Turkish (Windows 1254)" } },
-                    { "caption": "Turkish (ISO 8859-9)", "command": "reopen", "args": {"encoding": "Turkish (ISO 8859-9)" } },
-                    { "caption": "Vietnamese (Windows 1258)", "command": "reopen", "args": {"encoding": "Vietnamese (Windows 1258)" } },
+                    { "caption": "Арабская (Windows 1256)", "command": "reopen", "args": {"encoding": "Arabic (Windows 1256)" } },
+                    { "caption": "Арабская (ISO 8859-6)", "command": "reopen", "args": {"encoding": "Arabic (ISO 8859-6)" } },
+                    { "caption": "Балтийская (Windows 1257)", "command": "reopen", "args": {"encoding": "Baltic (Windows 1257)" } },
+                    { "caption": "Балтийская (ISO 8859-4)", "command": "reopen", "args": {"encoding": "Baltic (ISO 8859-4)" } },
+                    { "caption": "Кельтская (ISO 8859-14)", "command": "reopen", "args": {"encoding": "Celtic (ISO 8859-14)" } },
+                    { "caption": "Центрально-европейская (Windows 1250)", "command": "reopen", "args": {"encoding": "Central European (Windows 1250)" } },
+                    { "caption": "Центрально-европейская (ISO 8859-2)", "command": "reopen", "args": {"encoding": "Central European (ISO 8859-2)" } },
+                    { "caption": "Кириллица (Windows 1251)", "command": "reopen", "args": {"encoding": "Cyrillic (Windows 1251)" } },
+                    { "caption": "Кириллица (Windows 866)", "command": "reopen", "args": {"encoding": "Cyrillic (Windows 866)" } },
+                    { "caption": "Кириллица (ISO 8859-5)", "command": "reopen", "args": {"encoding": "Cyrillic (ISO 8859-5)" } },
+                    { "caption": "Кириллица (KOI8-R)", "command": "reopen", "args": {"encoding": "Cyrillic (KOI8-R)" } },
+                    { "caption": "Кириллица (KOI8-U)", "command": "reopen", "args": {"encoding": "Cyrillic (KOI8-U)" } },
+                    { "caption": "Эстонская (ISO 8859-13)", "command": "reopen", "args": {"encoding": "Estonian (ISO 8859-13)" } },
+                    { "caption": "Греческая (Windows 1253)", "command": "reopen", "args": {"encoding": "Greek (Windows 1253)" } },
+                    { "caption": "Греческая (ISO 8859-7)", "command": "reopen", "args": {"encoding": "Greek (ISO 8859-7)" } },
+                    { "caption": "Иврит (Windows 1255)", "command": "reopen", "args": {"encoding": "Hebrew (Windows 1255)" } },
+                    { "caption": "Иврит (ISO 8859-8)", "command": "reopen", "args": {"encoding": "Hebrew (ISO 8859-8)" } },
+                    { "caption": "Скандинавская (ISO 8859-10)", "command": "reopen", "args": {"encoding": "Nordic (ISO 8859-10)" } },
+                    { "caption": "Румынская (ISO 8859-16)", "command": "reopen", "args": {"encoding": "Romanian (ISO 8859-16)" } },
+                    { "caption": "Турецкая (Windows 1254)", "command": "reopen", "args": {"encoding": "Turkish (Windows 1254)" } },
+                    { "caption": "Турецкая (ISO 8859-9)", "command": "reopen", "args": {"encoding": "Turkish (ISO 8859-9)" } },
+                    { "caption": "Вьетнамская (Windows 1258)", "command": "reopen", "args": {"encoding": "Vietnamese (Windows 1258)" } },
                     { "caption": "-" },
-                    { "caption": "Hexadecimal", "command": "reopen", "args": {"encoding": "Hexadecimal" } }
+                    { "caption": "Шестнадцатеричная", "command": "reopen", "args": {"encoding": "Hexadecimal" } }
                 ]
             },
             { "command": "clone_file", "caption": "Дублировать активную вкладку", "mnemonic": "e" },
@@ -91,36 +91,36 @@
                     { "caption": "UTF-16 BE", "command": "save", "args": {"encoding": "utf-16 be" } },
                     { "caption": "UTF-16 BE + BOM", "command": "save", "args": {"encoding": "utf-16 be with bom" } },
                     { "caption": "-" },
-                    { "caption": "Western (Windows 1252)", "command": "save", "args": {"encoding": "Western (Windows 1252)" } },
-                    { "caption": "Western (ISO 8859-1)", "command": "save", "args": {"encoding": "Western (ISO 8859-1)" } },
-                    { "caption": "Western (ISO 8859-3)", "command": "save", "args": {"encoding": "Western (ISO 8859-3)" } },
-                    { "caption": "Western (ISO 8859-15)", "command": "save", "args": {"encoding": "Western (ISO 8859-15)" } },
-                    { "caption": "Western (Mac Roman)", "command": "save", "args": {"encoding": "Western (Mac Roman)" } },
+                    { "caption": "Латиница (Windows 1252)", "command": "save", "args": {"encoding": "Western (Windows 1252)" } },
+                    { "caption": "Латиница (ISO 8859-1)", "command": "save", "args": {"encoding": "Western (ISO 8859-1)" } },
+                    { "caption": "Латиница (ISO 8859-3)", "command": "save", "args": {"encoding": "Western (ISO 8859-3)" } },
+                    { "caption": "Латиница (ISO 8859-15)", "command": "save", "args": {"encoding": "Western (ISO 8859-15)" } },
+                    { "caption": "Латиница (Mac Roman)", "command": "save", "args": {"encoding": "Western (Mac Roman)" } },
                     { "caption": "DOS (CP 437)", "command": "save", "args": {"encoding": "DOS (CP 437)" } },
-                    { "caption": "Arabic (Windows 1256)", "command": "save", "args": {"encoding": "Arabic (Windows 1256)" } },
-                    { "caption": "Arabic (ISO 8859-6)", "command": "save", "args": {"encoding": "Arabic (ISO 8859-6)" } },
-                    { "caption": "Baltic (Windows 1257)", "command": "save", "args": {"encoding": "Baltic (Windows 1257)" } },
-                    { "caption": "Baltic (ISO 8859-4)", "command": "save", "args": {"encoding": "Baltic (ISO 8859-4)" } },
-                    { "caption": "Celtic (ISO 8859-14)", "command": "save", "args": {"encoding": "Celtic (ISO 8859-14)" } },
-                    { "caption": "Central European (Windows 1250)", "command": "save", "args": {"encoding": "Central European (Windows 1250)" } },
-                    { "caption": "Central European (ISO 8859-2)", "command": "save", "args": {"encoding": "Central European (ISO 8859-2)" } },
-                    { "caption": "Cyrillic (Windows 1251)", "command": "save", "args": {"encoding": "Cyrillic (Windows 1251)" } },
-                    { "caption": "Cyrillic (Windows 866)", "command": "save", "args": {"encoding": "Cyrillic (Windows 866)" } },
-                    { "caption": "Cyrillic (ISO 8859-5)", "command": "save", "args": {"encoding": "Cyrillic (ISO 8859-5)" } },
-                    { "caption": "Cyrillic (KOI8-R)", "command": "save", "args": {"encoding": "Cyrillic (KOI8-R)" } },
-                    { "caption": "Cyrillic (KOI8-U)", "command": "save", "args": {"encoding": "Cyrillic (KOI8-U)" } },
-                    { "caption": "Estonian (ISO 8859-13)", "command": "save", "args": {"encoding": "Estonian (ISO 8859-13)" } },
-                    { "caption": "Greek (Windows 1253)", "command": "save", "args": {"encoding": "Greek (Windows 1253)" } },
-                    { "caption": "Greek (ISO 8859-7)", "command": "save", "args": {"encoding": "Greek (ISO 8859-7)" } },
-                    { "caption": "Hebrew (Windows 1255)", "command": "save", "args": {"encoding": "Hebrew (Windows 1255)" } },
-                    { "caption": "Hebrew (ISO 8859-8)", "command": "save", "args": {"encoding": "Hebrew (ISO 8859-8)" } },
-                    { "caption": "Nordic (ISO 8859-10)", "command": "save", "args": {"encoding": "Nordic (ISO 8859-10)" } },
-                    { "caption": "Romanian (ISO 8859-16)", "command": "save", "args": {"encoding": "Romanian (ISO 8859-16)" } },
-                    { "caption": "Turkish (Windows 1254)", "command": "save", "args": {"encoding": "Turkish (Windows 1254)" } },
-                    { "caption": "Turkish (ISO 8859-9)", "command": "save", "args": {"encoding": "Turkish (ISO 8859-9)" } },
-                    { "caption": "Vietnamese (Windows 1258)", "command": "save", "args": {"encoding": "Vietnamese (Windows 1258)" } },
+                    { "caption": "Арабская (Windows 1256)", "command": "save", "args": {"encoding": "Arabic (Windows 1256)" } },
+                    { "caption": "Арабская (ISO 8859-6)", "command": "save", "args": {"encoding": "Arabic (ISO 8859-6)" } },
+                    { "caption": "Балтийская (Windows 1257)", "command": "save", "args": {"encoding": "Baltic (Windows 1257)" } },
+                    { "caption": "Балтийская (ISO 8859-4)", "command": "save", "args": {"encoding": "Baltic (ISO 8859-4)" } },
+                    { "caption": "Кельтская (ISO 8859-14)", "command": "save", "args": {"encoding": "Celtic (ISO 8859-14)" } },
+                    { "caption": "Центрально-европейская (Windows 1250)", "command": "save", "args": {"encoding": "Central European (Windows 1250)" } },
+                    { "caption": "Центрально-европейская (ISO 8859-2)", "command": "save", "args": {"encoding": "Central European (ISO 8859-2)" } },
+                    { "caption": "Кириллица (Windows 1251)", "command": "save", "args": {"encoding": "Cyrillic (Windows 1251)" } },
+                    { "caption": "Кириллица (Windows 866)", "command": "save", "args": {"encoding": "Cyrillic (Windows 866)" } },
+                    { "caption": "Кириллица (ISO 8859-5)", "command": "save", "args": {"encoding": "Cyrillic (ISO 8859-5)" } },
+                    { "caption": "Кириллица (KOI8-R)", "command": "save", "args": {"encoding": "Cyrillic (KOI8-R)" } },
+                    { "caption": "Кириллица (KOI8-U)", "command": "save", "args": {"encoding": "Cyrillic (KOI8-U)" } },
+                    { "caption": "Эстонская (ISO 8859-13)", "command": "save", "args": {"encoding": "Estonian (ISO 8859-13)" } },
+                    { "caption": "Греческая (Windows 1253)", "command": "save", "args": {"encoding": "Greek (Windows 1253)" } },
+                    { "caption": "Греческая (ISO 8859-7)", "command": "save", "args": {"encoding": "Greek (ISO 8859-7)" } },
+                    { "caption": "Иврит (Windows 1255)", "command": "save", "args": {"encoding": "Hebrew (Windows 1255)" } },
+                    { "caption": "Иврит (ISO 8859-8)", "command": "save", "args": {"encoding": "Hebrew (ISO 8859-8)" } },
+                    { "caption": "Скандинавская (ISO 8859-10)", "command": "save", "args": {"encoding": "Nordic (ISO 8859-10)" } },
+                    { "caption": "Румынская (ISO 8859-16)", "command": "save", "args": {"encoding": "Romanian (ISO 8859-16)" } },
+                    { "caption": "Турецкая (Windows 1254)", "command": "save", "args": {"encoding": "Turkish (Windows 1254)" } },
+                    { "caption": "Турецкая (ISO 8859-9)", "command": "save", "args": {"encoding": "Turkish (ISO 8859-9)" } },
+                    { "caption": "Вьетнамская (Windows 1258)", "command": "save", "args": {"encoding": "Vietnamese (Windows 1258)" } },
                     { "caption": "-" },
-                    { "caption": "Hexadecimal", "command": "save", "args": {"encoding": "Hexadecimal" } }
+                    { "caption": "Шестнадцатеричная", "command": "save", "args": {"encoding": "Hexadecimal" } }
                 ]
             },
             { "command": "prompt_save_as", "caption": "Сохранить как…", "mnemonic": "A" },
@@ -208,7 +208,8 @@
                 [
                     { "command": "close_tag", "caption": "Закрыть тег" },
                     { "command": "expand_selection", "args": {"to": "tag"}, "caption": "Выделить до тега" },
-                    { "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" }, "caption": "Обернуть выделенное тегом" }
+                    { "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" }, "caption": "Обернуть выделенное тегом" }
+
                 ]
             },
             {
@@ -217,10 +218,10 @@
                 "children":
                 [
                     { "command": "set_mark", "caption": "Установить метку" },
-                    { "command": "select_to_mark", "caption": "Выделить текст до метки", "caption": "Выделить до метки" },
-                    { "command": "delete_to_mark", "caption": "Выделить текст до метки", "caption": "Удалить до метки" },
-                    { "command": "swap_with_mark", "caption": "Поменять местами строку с меткой и текущую строку", "caption": "Поменяться с меткой" },
-                    { "command": "clear_bookmarks", "caption": "Удалить закладки", "args": {"name": "mark"}, "caption": "Удалить метку" },
+                    { "command": "select_to_mark", "caption": "Выделить до метки" },
+                    { "command": "delete_to_mark", "caption": "Удалить до метки" },
+                    { "command": "swap_with_mark", "caption": "Поменяться с меткой" },
+                    { "command": "clear_bookmarks", "args": {"name": "mark"}, "caption": "Удалить метку" },
                     { "caption": "-" },
                     { "command": "yank" }
                 ]
@@ -252,10 +253,10 @@
                 "id": "convert_case",
                 "children":
                 [
-                    { "command": "title_case", "caption": "Все слова с заглавной" },
+                    { "command": "title_case", "caption": "Все Слова С Заглавной" },
                     { "command": "upper_case", "caption": "ПРОПИСНЫЕ" },
                     { "command": "lower_case", "caption": "строчные" },
-                    { "command": "swap_case", "caption": "Инвертировать" }
+                    { "command": "swap_case", "caption": "иНВЕРТИРОВАТЬ" }
                 ]
             },
             {
@@ -327,12 +328,12 @@
         "id": "find",
         "children":
         [
-            { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "find", "reverse": false}, "caption": "Найти…" },
+            { "command": "show_panel", "args": {"panel": "find", "reverse": false}, "caption": "Найти…" },
             { "command": "find_next", "caption": "Найти следующее" },
             { "command": "find_prev", "caption": "Найти предыдущее" },
-            { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "incremental_find", "reverse": false}, "caption": "Поиск ''на лету''" },
+            { "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false}, "caption": "Поиск \"на лету\"" },
             { "caption": "-" },
-            { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "replace", "reverse": false}, "caption": "Заменить…" },
+            { "command": "show_panel", "args": {"panel": "replace", "reverse": false}, "caption": "Заменить…" },
             { "command": "replace_next", "caption": "Заменить следующее" },
             { "caption": "-" },
             { "command": "find_under", "caption": "Быстро найти" },
@@ -343,13 +344,13 @@
             { "command": "slurp_find_string", "caption": "Использовать выделенное для поиска" },
             { "command": "slurp_replace_string", "caption": "Использовать выделенное для замены" },
             { "caption": "-" },
-            { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "find_in_files"}, "caption": "Найти в файлах…" },
+            { "command": "show_panel", "args": {"panel": "find_in_files"}, "caption": "Найти в файлах…" },
             {
                 "caption": "Результаты поиска",
                 "mnemonic": "R",
                 "children":
                 [
-                    { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "output.find_results"}, "caption": "Показать окно с результатами поиска" },
+                    { "command": "show_panel", "args": {"panel": "output.find_results"}, "caption": "Показать окно с результатами поиска" },
                     { "command": "next_result", "caption": "Следующий результат" },
                     { "command": "prev_result", "caption": "Предыдущий результат" }
                 ]
@@ -376,7 +377,7 @@
             { "command": "toggle_tabs", "caption": "Показать/Скрыть вкладки" },
             { "command": "toggle_status_bar", "caption": "Показать/Скрыть панель состояния" },
             { "command": "toggle_menu", "caption": "Показать/Скрыть меню" },
-            { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "console", "toggle": true} },
+            { "command": "show_panel", "args": {"panel": "console", "toggle": true}, "caption": "Показать/Скрыть консоль" },
             { "caption": "-", "id": "full_screen" },
             { "command": "toggle_full_screen", "caption": "Переключить режим полноэкранного просмотра" },
             { "command": "toggle_distraction_free", "caption": "Переключить отвлеченный режим" },
@@ -709,7 +710,7 @@
         "children":
         [
             { "command": "show_overlay", "args": {"overlay": "command_palette"}, "caption": "Командная панель…" },
-            { "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}, "caption": "Сниппеты" },
+            { "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}, "caption": "Сниппеты…" },
             { "caption": "-", "id": "build" },
             {
                 "caption": "Система сборки",
@@ -738,18 +739,18 @@
             },
             { "command": "build", "caption": "Собрать", "mnemonic": "B" },
             { "command": "build", "args": {"select": true}, "caption": "Собрать…" },
-            { "command": "exec", "args": {"kill": true}, "caption": "Отменить создание", "mnemonic": "C" },
+            { "command": "cancel_build", "caption": "Отменить сборку", "mnemonic": "C" },
             {
-                "caption": "Результаты создания",
+                "caption": "Результаты сборки",
                 "mnemonic": "R",
                 "children":
                 [
-                    { "command": "show_panel", "caption": "Показать/Скрыть консоль", "args": {"panel": "output.exec"}, "caption": "Показать результаты создания", "mnemonic": "S" },
+                    { "command": "show_panel", "args": {"panel": "output.exec"}, "caption": "Показать результаты сборки", "mnemonic": "S" },
                     { "command": "next_result", "caption": "Следующий результат", "mnemonic": "N" },
                     { "command": "prev_result", "caption": "Предыдущий результат", "mnemonic": "P" }
                 ]
             },
-            { "command": "toggle_save_all_on_build", "caption": "Сохранить все после создания", "mnemonic": "A", "checkbox": true },
+            { "command": "toggle_save_all_on_build", "caption": "Сохранить все после сборки", "mnemonic": "A", "checkbox": true },
             { "caption": "-", "id": "macros" },
             { "command": "toggle_record_macro", "caption": "Начать/Остановить запись макроса", "mnemonic": "M" },
             { "command": "run_macro", "caption": "Запустить макрос", "mnemonic": "P" },
@@ -766,13 +767,14 @@
                     { "command": "new_plugin", "caption": "Новый плагин…" },
                     { "command": "new_snippet", "caption": "Новый сниппет…" },
                     { "command": "new_syntax", "caption": "Новый синтаксис…" },
-                    { "command": "convert_syntax" },
+                    { "command": "convert_syntax", "caption": "Конвертировать синтаксис в .sublime-syntax" },
                     { "caption": "-" },
-                    { "command": "profile_plugins" },
+                    { "command": "profile_plugins", "caption": "Профилирование плагинов" },
                     { "caption": "-" },
-                    { "command": "show_scope_name" },
+                    { "command": "show_scope_name", "caption": "Показать имя scope" },
                 ]
             },
+            { "command": "install_package_control", "caption": "Установить Package Control…" },
             { "caption": "-", "id": "end" }
         ]
     },
@@ -807,7 +809,7 @@
             { "command": "open_file", "args": {"file": "${project}"}, "caption": "Редактировать проект" },
             { "caption": "-" },
             { "command": "new_window_for_project", "caption": "Новое рабочее пространство для проекта" },
-            { "command": "save_workspace_as", "caption": "Сохранить рабочее пространство как...", "mnemonic": "A" },
+            { "command": "save_workspace_as", "caption": "Сохранить рабочее пространство как…", "mnemonic": "A" },
             { "caption": "-" },
             { "command": "prompt_add_folder", "caption": "Добавить папку в проект…", "mnemonic": "d" },
             { "command": "close_folder_list", "caption": "Удалить все папки из проекта", "mnemonic": "m" },
@@ -822,45 +824,31 @@
         [
             { "command": "open_dir", "args": {"dir": "$packages"}, "caption": "Просмотр плагинов…", "mnemonic": "B" },
             { "caption": "-" },
-            { "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"}, "caption": "Настройки - По умолчанию" },
             {
-                "command": "open_file", "args":
+                "command": "edit_settings", "args":
                 {
-                    "file": "${packages}/User/Preferences.sublime-settings",
-                    "contents": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by file type specific settings.\n{\n\t$0\n}\n"
+                    "base_file": "${packages}/Default/Preferences.sublime-settings",
+                    "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
                 },
-                "caption": "Настройки - Пользовательские"
+                "caption": "Настройки"
             },
+            { "command": "edit_syntax_settings", "caption": "Настройки – Специальный синтаксис" },
             {
-                "caption": "Настройки - Дополнительно",
-                "children":
-                [
-                    { "command": "open_file_settings", "caption": "Специальный синтаксис - Пользовательские" },
-                    {
-                        "command": "open_file", "args":
-                        {
-                            "file": "${packages}/User/Distraction Free.sublime-settings",
-                            "contents": "{\n\t$0\n}\n"
-                        },
-                        "caption": "Отвлеченный режим - Пользовательские"
-                    }
-                ]
+                "command": "edit_settings", "args":
+                {
+                    "base_file": "${packages}/Default/Distraction Free.sublime-settings",
+                    "default": "{\n\t$0\n}\n"
+                },
+                "caption": "Настройки – Отвлеченный режим"
             },
             { "caption": "-" },
             {
-                "command": "open_file", "args":
+                "command": "edit_settings", "args":
                 {
-                    "file": "${packages}/Default/Default ($platform).sublime-keymap"
+                    "base_file": "${packages}/Default/Default ($platform).sublime-keymap",
+                    "default": "[\n\t$0\n]\n"
                 },
-                "caption": "Горячие клавиши - По умолчанию"
-            },
-            {
-                "command": "open_file", "args":
-                {
-                    "file": "${packages}/User/Default ($platform).sublime-keymap",
-                    "contents": "[\n\t$0\n]\n"
-                },
-                "caption": "Горячие клавиши - Пользовательские"
+                "caption": "Горячие клавиши"
             },
             { "caption": "-" },
             {
@@ -887,6 +875,8 @@
         [
             { "command": "open_url", "args": {"url": "http://www.sublimetext.com/docs/3/"}, "caption": "Документация" },
             { "command": "open_url", "args": {"url": "http://twitter.com/sublimehq"}, "caption": "Twitter" },
+            { "caption": "-" },
+            { "command": "show_progress_window", "caption": "Статус индексации…" },
             { "caption": "-" },
             { "command": "purchase_license", "caption": "Купить лицензию"},
             { "command": "show_license_window", "caption": "Ввести лицензию" },
