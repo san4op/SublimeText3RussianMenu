@@ -68,6 +68,16 @@
 		}
 	},
 
+	{
+		"caption": "UI: Выбрать цветовую схему",
+		"command": "select_color_scheme"
+	},
+	{
+		"caption": "UI: Выбрать тему",
+		"command": "select_theme"
+	},
+
+
 	{ "caption": "Файл: Сохранить все", "command": "save_all" },
 	{ "caption": "Файл: Восстановить", "command": "revert" },
 	{ "caption": "Файл: Дублировать активную вкладку", "command": "clone_file" },
