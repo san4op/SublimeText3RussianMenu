@@ -1,18 +1,16 @@
 [
     {
         "caption": "Файл",
-        "mnemonic": "F",
         "id": "file",
         "children":
         [
-            { "command": "new_file", "caption": "Новый файл", "mnemonic": "N" },
+            { "command": "new_file", "caption": "Новый файл" },
 
-            { "command": "prompt_open_file", "caption": "Открыть файл…", "mnemonic": "O", "platform": "!OSX" },
+            { "command": "prompt_open_file", "caption": "Открыть файл…", "platform": "!OSX" },
             { "command": "prompt_open_folder", "caption": "Открыть папку…", "platform": "!OSX" },
             { "command": "prompt_open", "caption": "Открыть…", "platform": "OSX" },
             {
                 "caption": "Недавно открытые",
-                "mnemonic": "R",
                 "children":
                 [
                     { "command": "reopen_last_file", "caption": "Переоткрыть последний закрытый файл" },
@@ -78,8 +76,8 @@
                     { "caption": "Шестнадцатеричная", "command": "reopen", "args": {"encoding": "Hexadecimal" } }
                 ]
             },
-            { "command": "clone_file", "caption": "Дублировать активную вкладку", "mnemonic": "e" },
-            { "command": "save", "caption": "Сохранить", "mnemonic": "S" },
+            { "command": "clone_file", "caption": "Дублировать активную вкладку" },
+            { "command": "save", "caption": "Сохранить" },
             {
                 "caption": "Сохранить в кодировке",
                 "children":
@@ -123,28 +121,27 @@
                     { "caption": "Шестнадцатеричная", "command": "save", "args": {"encoding": "Hexadecimal" } }
                 ]
             },
-            { "command": "prompt_save_as", "caption": "Сохранить как…", "mnemonic": "A" },
-            { "command": "save_all", "caption": "Сохранить все", "mnemonic": "l" },
+            { "command": "prompt_save_as", "caption": "Сохранить как…" },
+            { "command": "save_all", "caption": "Сохранить все" },
             { "caption": "-", "id": "window" },
-            { "command": "new_window", "caption": "Новое окно", "mnemonic": "W" },
+            { "command": "new_window", "caption": "Новое окно" },
             { "command": "close_window", "caption": "Закрыть окно" },
             { "caption": "-", "id": "close" },
-            { "command": "close", "caption": "Закрыть файл", "mnemonic": "C" },
-            { "command": "revert", "caption": "Перезагрузить файл", "mnemonic": "v" },
+            { "command": "close", "caption": "Закрыть файл" },
+            { "command": "revert", "caption": "Перезагрузить файл" },
             { "command": "close_all", "caption": "Закрыть все файлы" },
             { "caption": "-", "id": "exit" },
-            { "command": "exit", "caption": "Выход", "mnemonic": "x", "platform": "Windows" },
-            { "command": "exit", "caption": "Завершить", "mnemonic": "Q", "platform": "Linux" },
+            { "command": "exit", "caption": "Выход", "platform": "Windows" },
+            { "command": "exit", "caption": "Завершить", "platform": "Linux" },
         ]
     },
     {
         "caption": "Правка",
-        "mnemonic": "E",
         "id": "edit",
         "children":
         [
-            { "command": "undo", "caption": "Отменить", "mnemonic": "U" },
-            { "command": "redo_or_repeat", "caption": "Вернуть", "mnemonic": "R" },
+            { "command": "undo", "caption": "Отменить" },
+            { "command": "redo_or_repeat", "caption": "Вернуть" },
             {
                 "caption": "Отменить множественное выделение",
                 "children":
@@ -154,14 +151,14 @@
                 ]
             },
             { "caption": "-", "id": "clipboard" },
-            { "command": "copy", "caption": "Копировать", "mnemonic": "C" },
-            { "command": "cut", "caption": "Вырезать", "mnemonic": "t" },
-            { "command": "paste", "caption": "Вставить", "mnemonic": "P" },
-            { "command": "paste_and_indent", "caption": "Вставить с отступами", "mnemonic": "I" },
+            { "command": "copy", "caption": "Копировать" },
+            { "command": "cut", "caption": "Вырезать" },
+            { "command": "paste", "caption": "Вставить" },
+            { "command": "paste_and_indent", "caption": "Вставить с отступами" },
             { "command": "paste_from_history", "caption": "Вставить из истории" },
             { "caption": "-" },
             {
-                "caption": "Строка", "mnemonic": "L",
+                "caption": "Строка",
                 "id": "line",
                 "children":
                 [
@@ -176,7 +173,7 @@
                 ]
             },
             {
-                "caption": "Комментирование", "mnemonic": "m",
+                "caption": "Комментирование",
                 "id": "comment",
                 "children":
                 [
@@ -185,7 +182,7 @@
                 ]
             },
             {
-                "caption": "Текст", "mnemonic": "T",
+                "caption": "Текст",
                 "id": "text",
                 "children":
                 [
@@ -249,7 +246,7 @@
                 ]
             },
             {
-                "caption": "Изменить регистр", "mnemonic": "a",
+                "caption": "Изменить регистр",
                 "id": "convert_case",
                 "children":
                 [
@@ -276,7 +273,7 @@
             { "command": "auto_complete", "caption": "Показать список автозавершения" },
             { "caption": "-", "id": "permute" },
 
-            { "command": "sort_lines", "args": {"case_sensitive": false}, "caption": "Сортировать строки", "mnemonic": "S" },
+            { "command": "sort_lines", "args": {"case_sensitive": false}, "caption": "Сортировать строки" },
             { "command": "sort_lines", "args": {"case_sensitive": true}, "caption": "Сортировать строки (с учетом регистра)" },
             {
                 "caption": "Упорядочить строки",
@@ -303,7 +300,6 @@
     },
     {
         "caption": "Выделение",
-        "mnemonic": "S",
         "id": "selection",
         "children":
         [
@@ -325,7 +321,6 @@
     },
     {
         "caption": "Поиск",
-        "mnemonic": "i",
         "id": "find",
         "children":
         [
@@ -348,7 +343,6 @@
             { "command": "show_panel", "args": {"panel": "find_in_files"}, "caption": "Найти в файлах…" },
             {
                 "caption": "Результаты поиска",
-                "mnemonic": "R",
                 "children":
                 [
                     { "command": "show_panel", "args": {"panel": "output.find_results"}, "caption": "Показать окно с результатами поиска" },
@@ -360,7 +354,6 @@
     },
     {
         "caption": "Вид",
-        "mnemonic": "V",
         "id": "view",
         "children":
         [
@@ -385,7 +378,6 @@
             { "caption": "-", "id": "groups" },
             {
                 "caption": "Разделение экрана",
-                "mnemonic": "L",
                 "id": "layout",
                 "children":
                 [
@@ -509,7 +501,6 @@
             },
             {
                 "caption": "Фокус-группа",
-                "mnemonic": "F",
                 "children":
                 [
 
@@ -524,7 +515,6 @@
             },
             {
                 "caption": "Переместить файл в группу",
-                "mnemonic": "M",
                 "children":
                 [
                     { "command": "move_to_neighboring_group", "caption": "Следующая" },
@@ -539,13 +529,11 @@
             { "caption": "-" },
             {
                 "caption": "Синтаксис",
-                "mnemonic": "S",
                 "id": "syntax",
                 "children": [ { "command": "$file_types" } ]
             },
             {
                 "caption": "Отступы",
-                "mnemonic": "I",
                 "id": "indentation",
                 "children":
                 [
@@ -568,7 +556,6 @@
             },
             {
                 "caption": "Формат конца строк",
-                "mnemonic": "n",
                 "id": "line_endings",
                 "children":
                 [
@@ -578,7 +565,7 @@
                 ]
             },
             { "caption": "-", "id": "settings" },
-            { "command": "toggle_setting", "args": {"setting": "word_wrap"}, "caption": "Перенос строк", "mnemonic": "W", "checkbox": true },
+            { "command": "toggle_setting", "args": {"setting": "word_wrap"}, "caption": "Перенос строк", "checkbox": true },
             {
                 "caption": "Ширина строк",
                 "children":
@@ -619,11 +606,10 @@
     },
     {
         "caption": "Перейти",
-        "mnemonic": "G",
         "id": "goto",
         "children":
         [
-            { "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}, "caption": "Перейти к чему угодно…", "mnemonic": "A" },
+            { "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}, "caption": "Перейти к чему угодно…" },
             { "caption": "-" },
             { "command": "show_overlay", "args": {"overlay": "goto", "text": "@"}, "caption": "Перейти к идентификатору…" },
             { "command": "goto_symbol_in_project", "caption": "Перейти к идентификатору в проекте…" },
@@ -636,7 +622,6 @@
             { "caption": "-" },
             {
                 "caption": "Переключение файлов",
-                "mnemonic": "t",
                 "id": "switch_file",
                 "children":
                 [
@@ -646,7 +631,7 @@
                     { "command": "next_view_in_stack", "caption": "Следующий файл в стеке" },
                     { "command": "prev_view_in_stack", "caption": "Предыдущий файл в стеке" },
                     { "caption": "-" },
-                    { "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]}, "caption": "К объявлению/реализации", "mnemonic": "H" },
+                    { "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]}, "caption": "К объявлению/реализации" },
                     { "caption": "-" },
                     { "command": "select_by_index", "args": { "index": 0 } },
                     { "command": "select_by_index", "args": { "index": 1 } },
@@ -663,7 +648,6 @@
             { "caption": "-" },
             {
                 "caption": "Прокрутка",
-                "mnemonic": "S",
                 "id": "scroll",
                 "children":
                 [
@@ -674,7 +658,6 @@
             },
             {
                 "caption": "Закладки",
-                "mnemonic": "B",
                 "id": "bookmarks",
                 "children":
                 [
@@ -708,7 +691,6 @@
     },
     {
         "caption": "Инструменты",
-        "mnemonic": "T",
         "id": "tools",
         "children":
         [
@@ -717,7 +699,6 @@
             { "caption": "-", "id": "build" },
             {
                 "caption": "Система сборки",
-                "mnemonic": "u",
                 "children":
                 [
                     { "command": "set_build_system", "args": { "file": "" }, "caption": "Автоматическая", "checkbox": true },
@@ -740,24 +721,23 @@
                     { "command": "new_build_system", "caption": "Новая система сборки…" }
                 ]
             },
-            { "command": "build", "caption": "Собрать", "mnemonic": "B" },
+            { "command": "build", "caption": "Собрать" },
             { "command": "build", "args": {"select": true}, "caption": "Собрать…" },
-            { "command": "cancel_build", "caption": "Отменить сборку", "mnemonic": "C" },
+            { "command": "cancel_build", "caption": "Отменить сборку" },
             {
                 "caption": "Результаты сборки",
-                "mnemonic": "R",
                 "children":
                 [
-                    { "command": "show_panel", "args": {"panel": "output.exec"}, "caption": "Показать результаты сборки", "mnemonic": "S" },
-                    { "command": "next_result", "caption": "Следующий результат", "mnemonic": "N" },
-                    { "command": "prev_result", "caption": "Предыдущий результат", "mnemonic": "P" }
+                    { "command": "show_panel", "args": {"panel": "output.exec"}, "caption": "Показать результаты сборки" },
+                    { "command": "next_result", "caption": "Следующий результат" },
+                    { "command": "prev_result", "caption": "Предыдущий результат" }
                 ]
             },
-            { "command": "toggle_save_all_on_build", "caption": "Сохранить все после сборки", "mnemonic": "A", "checkbox": true },
+            { "command": "toggle_save_all_on_build", "caption": "Сохранить все после сборки", "checkbox": true },
             { "caption": "-", "id": "macros" },
-            { "command": "toggle_record_macro", "caption": "Начать/Остановить запись макроса", "mnemonic": "M" },
-            { "command": "run_macro", "caption": "Запустить макрос", "mnemonic": "P" },
-            { "command": "save_macro", "caption": "Сохранить макрос…", "mnemonic": "v" },
+            { "command": "toggle_record_macro", "caption": "Начать/Остановить запись макроса" },
+            { "command": "run_macro", "caption": "Запустить макрос" },
+            { "command": "save_macro", "caption": "Сохранить макрос…" },
             {
                 "caption": "Макрос",
                 "children": [ { "command": "$macros" } ]
@@ -784,12 +764,11 @@
     {
         "caption": "Проект",
         "id": "project",
-        "mnemonic": "P",
         "children":
         [
             { "command": "prompt_open_project_or_workspace", "caption": "Открыть проект…" },
             { "command": "prompt_switch_project_or_workspace", "caption": "Переключить проект…" },
-            { "command": "prompt_select_workspace", "caption": "Быстро переключить проект…", "mnemonic": "S" },
+            { "command": "prompt_select_workspace", "caption": "Быстро переключить проект…" },
             {
                 "caption": "Недавно открытые",
                 "children":
@@ -807,25 +786,24 @@
                 ]
             },
             { "caption": "-" },
-            { "command": "save_project_and_workspace_as", "caption": "Сохранить проект как…", "mnemonic": "A" },
-            { "command": "close_workspace", "caption": "Закрыть проект", "mnemonic": "C" },
+            { "command": "save_project_and_workspace_as", "caption": "Сохранить проект как…" },
+            { "command": "close_workspace", "caption": "Закрыть проект" },
             { "command": "open_file", "args": {"file": "${project}"}, "caption": "Редактировать проект" },
             { "caption": "-" },
             { "command": "new_window_for_project", "caption": "Новое рабочее пространство для проекта" },
-            { "command": "save_workspace_as", "caption": "Сохранить рабочее пространство как…", "mnemonic": "A" },
+            { "command": "save_workspace_as", "caption": "Сохранить рабочее пространство как…" },
             { "caption": "-" },
-            { "command": "prompt_add_folder", "caption": "Добавить папку в проект…", "mnemonic": "d" },
-            { "command": "close_folder_list", "caption": "Удалить все папки из проекта", "mnemonic": "m" },
-            { "command": "refresh_folder_list", "caption": "Обновить папки", "mnemonic": "e" },
+            { "command": "prompt_add_folder", "caption": "Добавить папку в проект…" },
+            { "command": "close_folder_list", "caption": "Удалить все папки из проекта" },
+            { "command": "refresh_folder_list", "caption": "Обновить папки" },
         ]
     },
     {
         "caption": "Опции",
-        "mnemonic": "n",
         "id": "preferences",
         "children":
         [
-            { "command": "open_dir", "args": {"dir": "$packages"}, "caption": "Просмотр плагинов…", "mnemonic": "B" },
+            { "command": "open_dir", "args": {"dir": "$packages"}, "caption": "Просмотр плагинов…" },
             { "caption": "-" },
             {
                 "command": "edit_settings", "args":
@@ -876,7 +854,6 @@
     },
     {
         "caption": "Справка",
-        "mnemonic": "H",
         "id": "help",
         "children":
         [
@@ -892,7 +869,7 @@
             { "caption": "-" },
             { "command": "update_check", "caption": "Проверить наличие обновлений…", "platform": "!Linux" },
             { "command": "show_changelog", "caption": "Список изменений…" },
-            { "command": "show_about_window", "caption": "О программе...", "mnemonic": "A" }
+            { "command": "show_about_window", "caption": "О программе..." }
         ]
     }
 ]
